@@ -1,0 +1,196 @@
+
+
+.container {
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+  padding: 20px;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 60px 120px;
+  border: 1px solid #dbdbdb;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.loginForm input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  color:black;
+  background-color: white;
+  width: 150%;
+  align-self: center;
+}
+
+.loginForm button {
+  padding: 10px;
+  color: white;
+  background-color: #0095f6;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 150%;
+  align-self: center;
+  font-weight: bold;
+}
+
+.logo {
+  margin-bottom: 20px;
+  max-height: 60px;
+}
+
+.divider {
+  margin: 20px 0;
+  color: #8e8e8e;
+  font-weight:normal;
+  font-size: 90%;
+  width: 100%;
+  text-align: center;
+}
+
+.divider hr {
+  display: inline-block;
+  width: 50px;
+}
+
+.divider span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.forgotPassword {
+  color: #00376b;
+  font-size: smaller;
+}
+
+.signUp {
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: white;
+  width: 100%;
+  align-self: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: center;
+  font-size: small;
+}
+
+.signUp a {
+  font-weight: bold;
+  color: #0095f6;
+}
+
+.getApp {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  width: 100%;
+  align-self: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: center;
+  font-size: small;
+}
+
+.appStore {
+  max-height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.googlePlay {
+  max-height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.footer {
+  color: #8e8e8e;
+  padding-top: 20px;
+  padding-bottom: 20px;;
+  font-weight: normal;
+  font-size: 75%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+}
+
+.footer span {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+
+.footer span:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  color: #8e8e8e;
+  max-height: 20px;
+  font-weight: normal;
+  font-size: 75%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 30px;
+  border: none;
+}
+
+.copyright span {
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 414px) {
+  .loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 60px 120px;
+    border: none;
+  }
+  .signUp {
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+    align-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: small;
+    border: none;
+  }
+  .footer span{
+display: flex;
+  }
+}
